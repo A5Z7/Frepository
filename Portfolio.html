@@ -1,0 +1,161 @@
+<!DOCTYPE htmL> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Mon Portfolio </title>
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+      </style>
+     </head>
+<body>
+    <header>
+        <nav class="menu"> 
+         <ul>
+            <li> <a href="#about"> About </a></li>
+            <li> <a href="#CV"> Mon cv </a></li>
+            <li> <a href="#contact"> Contact </a></li>
+            <li> <a href="blog/tous .html"> Blog </a></li>
+         </ul>
+        </nav>
+      <img src="img/alyaa.jpeg" alt="Photo de profil" width="400" height="300">
+        
+        <section id="about">
+
+            <h1>À propos de moi</h1>
+            <p> Mon nom: Alyaa Assenghour </p>
+            <p>Ma localisation: Istanbul-Turkey</p>
+            <p>Gmail : assenghouralyaa0@gmail.com</p>
+        </section>
+         <section id="CV">
+
+         <div class="Container">  
+             
+                 <div class=per_info1> 
+                 <h1 id="per_info1">Information personnelles: </h1>
+                 <ul>
+                     <li>État civil: Single</li> 
+                     <li>Nationalité: Marocaine </li>
+                     <li> Date de naissance: 11/06/2005</li>
+                 <ul>
+                 </div>
+            
+                 <div class="educ2">
+                 <h1>Education </h1>
+                 <ul>
+                 <li>Lycée: Huda American School, Istanbul, Turkey, 2023 </li>
+                 <li>École intermédiaire: Groupe Scolaire Paul Verlaine, Casablanca, Maroc, 2020</li>
+                 <li>École primaire: Groupe Scolaire Al Mountada, Casablanca </li>
+                 <li> Résultats des tests standardisés : SAT : Mathématiques - 760, Anglais - 560, (Total - 1320) </li>
+                 </ul>
+                 </div>
+                
+                 <div class="dom_exp3">
+                 <h1> Domaines d'expertise :</h1>
+                 <ul>
+                 <li>Base solide en mathématiques, physique et informatique</li>
+                 <li>Packs Microsoft Office : (word, Excel, PowerPoint).</li>
+                 <li>Compétences en contrôle de documents et en saisie de données.</li>
+                 <li>Capacité à gérer les e-mails (compétences Outlook).</li>
+                 <li>Capacité d'imprimer l'arabe et l'anglais.</li>
+                 <li>Adaptabilité et travail sous pression.</li>
+                 <li>Compétences de gestion du temps.</li>
+                 <li>Aptitudes à la communication, à l'analyse et aux relations interpersonnelles.</li>
+                 <li>Compétences en travail d'équipe et en leadership (assumer la responsabilité de la gestion).</li>
+                 <li>Les compétences sociales et de communication comprennent la compréhension et l'acceptation des autres, et les compétences de négociation.</li>
+                 </ul>
+                 </div>
+            
+         </div>
+
+             
+             <br>
+               
+             <h1 id="tableau"> Tableau de domaines d'expertise: </h1>
+             <table border="1">
+                <tr>
+                    <th>Compétence</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Base solide en mathématiques, physique et informatique</td>
+                    <td>Maîtrise des concepts fondamentaux en mathématiques, physique et informatique.</td>
+                </tr>
+                <tr>
+                    <td>Packs Microsoft Office (Word, Excel, PowerPoint)</td>
+                    <td>Maîtrise des applications Microsoft Office pour la création de documents, feuilles de calcul et présentations.</td>
+                </tr>
+                <tr>
+                    <td>Capacité d'imprimer en arabe et en anglais</td>
+                    <td>Maîtrise de l'impression de documents en arabe et en anglais.</td>
+                </tr>
+                <tr>
+                    <td>Adaptabilité et travail sous pression</td>
+                    <td>Capacité à s'adapter à différents environnements de travail et à travailler efficacement sous pression.</td>
+                </tr>
+                <tr>
+                    <td>Compétences de gestion du temps</td>
+                    <td>Organisation efficace du temps pour maximiser la productivité.</td>
+                </tr>
+                <tr>
+                    <td>Aptitudes à la communication, à l'analyse et aux relations interpersonnelles</td>
+                    <td>Compétences en communication, en analyse de données et en relations interpersonnelles.</td>
+                </tr>
+                <tr>
+                    <td>Compétences en travail d'équipe et en leadership</td>
+                    <td>Capacité à travailler en équipe et à assumer la responsabilité de la gestion.</td>
+                </tr>
+                <tr>
+                    <td>Compétences sociales et de communication</td>
+                    <td>Compréhension et acceptation des autres, ainsi que des compétences en négociation.</td>
+                </tr>
+            </table>
+         </section>
+        <br> <br>
+             <hr>
+
+             <div>
+             <iframe src="blog/tous .html" title="blog"> </iframe>
+             </div>
+<hr>
+             <div class="contact" id="contact">
+             <h1>Contactez-moi </h1>
+             <form method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Envoyer">
+             </form>
+             <br><br>
+             <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="37fc247c-919f-4b3c-ac35-b5dc20266e13">
+                <label for="name1">Nom :</label>
+                <input type="text" id="name1" name="name1" required>
+                <label for="email1">Adresse e-mail :</label>
+                <input type="email" id="email1" name="email1" required>
+                <label for="telephone1">Téléphone :</label>
+                <input type="number" id="telephone1" name="telephone1" required>
+                <label for="message1">Message :</label>
+                <textarea id="message1" name="message1" required></textarea>
+                <label for="accept_recontact">J'accepte d'être recontacté</label>
+                <input type="checkbox" id="accept_recontact" name="accept_recontact" required>
+                <div class="h-captcha" data-captcha="true"></div>
+                <button type="submit">Envoyer le formulaire</button>
+             </form>
+             </div>>
+    
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+<br>
+        <footer>
+            <p> Je vous souhaite une bonne journée </p>
+            <a href="#"> retour en haut </a>
+        </footer>
+        </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
